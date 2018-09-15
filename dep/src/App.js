@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import image from './assets/rickandmorty_ep308_002_Way_Ahead_Of_The_Reveal.jpg'
+
 class App extends Component {
   render() {
     return (
@@ -11,7 +11,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
-          <img src={image}/>
+          <img src="./assets/rickandmorty_ep308_002_Way_Ahead_Of_The_Reveal.jpg"/>
         </p>
       </div>
     );
